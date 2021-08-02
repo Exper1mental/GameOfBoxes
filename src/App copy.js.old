@@ -1,0 +1,16 @@
+// import './App.css';
+import StartScreen from './components/StartScreen';
+
+function App() {
+  return (
+    <div className="App">
+      <StartScreen />
+      <footer class="text-white bg-gray-600 p-10 italic text-center">
+        © 2021 Thomas Delvaux. All rights reserved.
+      </footer>
+    </div>
+  );
+}
+
+
+export default App;
